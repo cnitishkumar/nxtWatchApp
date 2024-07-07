@@ -1,0 +1,84 @@
+.website-logo-navbar {
+  width: 100px;
+  height: 40px;
+}
+
+.nav-list-item {
+  list-style: none;
+  margin-right: 15px;
+}
+.nav-ul-el {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  background-color: transparent;
+  color: red;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theme-icon {
+  height: 20px;
+  width: 20px;
+}
+.profile-img {
+  height: 25px;
+  width: 25px;
+}
+.nav-logout-btn {
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.popup-close-btn {
+  font-size: medium;
+  background-color: transparent;
+  border: 2px solid #616e7c;
+  color: #616e7c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.popup-container {
+  background-color: #231f20;
+  height: 200px;
+  width: 80vw;
+  border-radius: 20px;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link-el {
+  text-decoration: none;
+}
+
+/* SIDE BAR */
+
+.sidebar-li-el {
+  list-style: none;
+
+  display: flex;
+  flex-grow: 1;
+}
+
+.selected-btn {
+  background-color: green;
+  color: #ffffff;
+}
+
+.sidebar-ul-el {
+  margin: 0px;
+  padding: 0px;
+}
